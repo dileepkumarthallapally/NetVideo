@@ -30,6 +30,13 @@ void Customer::addRental(const Rental& rental) {
 }
 
 // customer rental statement
+
+//calculates amount for current statement
+double Customer:: amountfor()
+{
+	return 0;
+}
+
 std::string Customer::statement() const {
 
     // customer name
