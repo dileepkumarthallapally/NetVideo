@@ -58,7 +58,7 @@ double Customer:: amountfor(Rental &r) const
 	return thisAmount;
 }
 
-std::string Customer::statement() const {
+std::string Customer::Rental_statement() const {
 
     // customer name
     std::string result("Rental Record for ");
